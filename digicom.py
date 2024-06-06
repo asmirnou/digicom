@@ -40,7 +40,7 @@ def gather(digit, phone_number, phone_number_pattern):
 
 
 def arc(stop_event):
-    logger = logging.getLogger(__name__)
+    logger = logging.getLogger('digicom')
 
     phone_num_pattern = re.compile(args.pattern + '$')
     msg_pattern = re.compile(r'^[0-9B-F]{16}$')

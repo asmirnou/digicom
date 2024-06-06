@@ -1,10 +1,10 @@
 # Description
 
-DigiCom simulates and replaces the phone line connection to the control panel’s Digi-Modem. The control panel’s 
-Digi-Modem must use Contact ID alarm format. In the event the control panel needs to send a signal to the ARC, 
-DigiCom will capture the message and forward it via MQTT to the Home Assistant. The Digi-Modem must have an ARC 
-telephone number and account number programmed for DigiCom to work. Check your control panel configuration for 
-any other settings that may apply.
+DigiCom simulates and replaces [the phone line connection](Telephone%20Line%20Simulator/Telephone%20Line%20Simulator.pdf) 
+to the control panel’s Digi-Modem. The control panel’s Digi-Modem must use Contact ID alarm format. In the event the 
+control panel needs to send a signal to the ARC, DigiCom will capture the message and forward it via MQTT to the Home 
+Assistant. The Digi-Modem must have an ARC telephone number and account number programmed for DigiCom to work. Check 
+your control panel configuration for any other settings that may apply.
 
 # Receiving a message using Conexant modem AT commands
 
